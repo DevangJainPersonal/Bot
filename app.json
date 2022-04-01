@@ -21,11 +21,6 @@
     "API_HASH": {
       "description": "Your API_ID. Refer project docs.",
       "value": ""
-    },
-    "DEBUG": {
-      "description": "Pass any value to set logging to debug level.",
-      "value": "",
-      "required":false
     }
    },
    "buildpacks": [
