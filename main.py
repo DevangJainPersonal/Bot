@@ -5,10 +5,11 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 Bot = Client(
     "Remove Background Bot",
-    bot_token=os.environ.get("BOT_TOKEN"),
-    api_id=int(os.environ.get("API_ID")),
-    api_hash=os.environ.get("API_HASH")
+    bot_token=os.environ.get("5147761459:AAGgijh1NjvC5eFIYzYZUoTeq3h4ORShNw0"),
+    api_id=int(os.environ.get("1605444")),
+    api_hash=os.environ.get("20bf60b846f326cb40e152b14433bd31")
 )
+
 
 START_TEXT = """Hello {},
 I am a media background remover bot. Send me a photo I will send the photo without background.
